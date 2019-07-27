@@ -7,5 +7,9 @@ function sayHey () {
 }
 
 function sayHeyFriend(friend) {
-  return 'Hey, ${friend}!'
+  return `Hey, ${friend}!`
+}
+
+function favoriteIceCream(flavor) {
+  return `I love ${flavor}`
 }
